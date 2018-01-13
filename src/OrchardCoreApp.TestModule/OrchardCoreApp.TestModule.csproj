@@ -11,8 +11,9 @@
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="OrchardCore.AsModule" Version="1.0.0-beta1-*" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.2" />
+    <PackageReference Include="OrchardCore.Environment.Shell.Abstractions" Version="1.0.0-beta2-*" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-beta2-*" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\Home\Index.cshtml" />
