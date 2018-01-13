@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Views\" />
-    <Folder Include="Views\Home\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>

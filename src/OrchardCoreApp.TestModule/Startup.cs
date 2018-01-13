@@ -14,7 +14,7 @@ namespace OrchardCoreApp.TestModule
 
         public override void Configure(IApplicationBuilder app, IRouteBuilder routes, IServiceProvider serviceProvider)
         {
-            routes.MapAreaRoute("TestModuleDefault", "TestModule", "", new { controller = "Home", action = "Index" });
+            routes.MapAreaRoute("TestModuleDefault", "OrchardCoreApp.TestModule", "", new { controller = "Home", action = "Index" });
         }
     }
 }
