@@ -1,0 +1,16 @@
+{
+    "Contoso": {
+      "State": "Running",
+      // "RequestUrlHost": "contoso.com",
+      "RequestUrlPrefix": "contoso",
+      "Features": [ "OrchardCoreApp.TestModule", "Module2", "OrchardCore.Mvc" ],
+      "MyConnectionString": "connectionstring1"
+    },
+    "Acme": {
+      "State": "Running",
+      // "RequestUrlHost": "acme.com, acme.org",
+      "RequestUrlPrefix": "acme",
+      "Features": [ "Module2", "OrchardCore.Mvc" ],
+      "MyConnectionString": "connectionstring2"
+    }
+  }
